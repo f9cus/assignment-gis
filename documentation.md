@@ -1,6 +1,6 @@
 # Overview
 
-![Screenshot](src.png)
+![Screenshot](scr.png)
 
 Nature of Slovakia is a single-page application that displays interesting geodata on a map. Use cases include:
 - show zones of protected areas of Slovakia, with color based on level of protection

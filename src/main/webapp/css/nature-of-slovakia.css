@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+}
+
+a {
+    color: #088;
+}
+
+nav {
+    float: left;
+    max-width: 193px;
+    margin: 0;
+    padding: 1em;
+    overflow-y: scroll;
+    height: 650px;
+    font-size: 80%;
+}
+
+nav table {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav table a {
+    text-decoration: none;
+}
+
+nav table b {
+    font-size: 130%;
+}
+
+.header {
+    padding: 7px;
+    color: ghostwhite;
+    background-color: #088;
+    clear: left;
+    text-align: center;
+}
+
+.header > a {
+    position: absolute;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.aggregationFilter {
+    width: 130%;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.plant {
+    color: orchid;
+}
+
+.tree {
+    color: chocolate;
+}
+
+.parea {
+    color: #006ad2;
+}
+
+.treeTitle {
+    margin-right: 100px;
+}
+
+#what-is-nearby {
+    left: 50px;
+}
+
+#name-link {
+    right: 50px;
+}
+
+#name-link:hover, #what-is-nearby:hover {
+    color: #00d4d4;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+#map {
+    width: 85%;
+    height: 650px;
+    margin-left: 200px;
+    padding: 3px;
+    overflow: hidden;
+}
+
+#infoForm {
+    position: absolute;
+    margin-left: 10px;
+}
+
+#zonesForm {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+#categoryForm {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 600px;
+}

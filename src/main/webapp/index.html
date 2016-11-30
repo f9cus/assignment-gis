@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>Nature of Slovakia</title>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v0.16.0/mapbox-gl-draw.css" type="text/css"/>
+    <link rel="stylesheet" href="css/nature-of-slovakia.css" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v0.16.0/mapbox-gl-draw.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <a id="what-is-nearby" href="#">Čo je pri mne?</a>
+        Nature of Slovakia
+        <a id="name-link" target="_blank" href="https://github.com/f9cus">Matej Kováč</a>
+    </div>
+
+    <nav>
+        <table id="species">
+        </table>
+    </nav>
+
+    <div id='map'></div>
+
+    <form id="zonesForm" action="">
+        <label>
+            Filtrovanie zonácie:
+            <select name="zoneSelect">
+                <option value="zoneD">Všetky stupne ochrany</option>
+                <option value="zoneC">III. stupeň ochrany a vyššie</option>
+                <option value="zoneB">IV. stupeň ochrany a vyššie</option>
+                <option value="zoneA">V. stupeň ochrany</option>
+            </select>
+        </label>
+    </form>
+
+    <form id="categoryForm" action="">
+        <input class="categoryCheck" type="checkbox" name="bordersD" value="Národný park" checked>Národné parky
+        <input class="categoryCheck" type="checkbox" name="bordersC" value="Chránená krajinná oblasť" checked>Chránené krajinné oblasti
+        <input class="categoryCheck" type="checkbox" name="bordersB" value="Ochranné pásmo národného parku" checked>Ochranné pásma národných parkov
+    </form>
+</div>
+
+</body>
+</html>

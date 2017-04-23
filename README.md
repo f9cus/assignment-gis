@@ -9,14 +9,14 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 # My project
 
-##Application description 
+## Application description 
 Nature of Slovakia is a single-page application that displays geo-based data on a map, including protected areas, protected trees and species of Slovakia.
 
-##Data sources
+## Data sources
 - [DanubeHack hackathon](http://2015.danubehack.eu/)
 - [enviroportal](http://stromy.enviroportal.sk/)
 
-##Technologies used
+## Technologies used
 - PostgreSQL 9.5
 - PostGIS 2.2
 - ogr2ogr
